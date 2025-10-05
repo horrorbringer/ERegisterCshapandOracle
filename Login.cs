@@ -46,6 +46,7 @@ namespace E_Registration
                     Properties.Settings.Default.isRemmeberme = false;
                 Properties.Settings.Default.Save();
 
+
                 MessageBox.Show("Login successful!", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // Open main admin form
                 var adminDashbaord = new AdminDashboard();
@@ -66,5 +67,6 @@ namespace E_Registration
             else
                 txtPassword.UseSystemPasswordChar = true;
         }
+
     }
 }

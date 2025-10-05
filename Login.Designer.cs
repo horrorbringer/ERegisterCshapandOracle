@@ -1,4 +1,10 @@
-﻿namespace E_Registration
+﻿
+using Guna.UI2.WinForms;
+using System.Drawing;
+using System.Windows.Forms;
+using System;
+
+namespace E_Registration
 {
     partial class Login
     {
@@ -26,6 +32,9 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
+
+
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -53,12 +62,14 @@
             // txtUsername
             // 
             this.txtUsername.BorderRadius = 5;
+            this.txtUsername.BorderThickness = 0;
             this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUsername.DefaultText = "";
             this.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtUsername.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -73,12 +84,14 @@
             // txtPassword
             // 
             this.txtPassword.BorderRadius = 5;
+            this.txtPassword.BorderThickness = 0;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.DefaultText = "";
             this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -113,14 +126,13 @@
             // 
             this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2Button2.BorderRadius = 5;
-            this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2Button2.ForeColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.Location = new System.Drawing.Point(38, 403);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(335, 45);
@@ -152,20 +164,23 @@
             // cbRemmeberme
             // 
             this.cbRemmeberme.AutoSize = true;
+            this.cbRemmeberme.BackColor = System.Drawing.Color.White;
             this.cbRemmeberme.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbRemmeberme.CheckedState.BorderRadius = 0;
             this.cbRemmeberme.CheckedState.BorderThickness = 0;
             this.cbRemmeberme.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbRemmeberme.ForeColor = System.Drawing.Color.Gray;
+            this.cbRemmeberme.CheckMarkColor = System.Drawing.Color.SteelBlue;
+            this.cbRemmeberme.ForeColor = System.Drawing.Color.DarkGray;
             this.cbRemmeberme.Location = new System.Drawing.Point(39, 277);
             this.cbRemmeberme.Name = "cbRemmeberme";
             this.cbRemmeberme.Size = new System.Drawing.Size(125, 21);
             this.cbRemmeberme.TabIndex = 4;
             this.cbRemmeberme.Text = "Keep me signed";
-            this.cbRemmeberme.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.cbRemmeberme.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.cbRemmeberme.UncheckedState.BorderRadius = 0;
             this.cbRemmeberme.UncheckedState.BorderThickness = 0;
             this.cbRemmeberme.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.cbRemmeberme.UseVisualStyleBackColor = false;
             // 
             // checkboxShowPassword
             // 
@@ -198,6 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(413, 493);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkboxShowPassword);
@@ -207,6 +223,7 @@
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -234,4 +251,3 @@
         private Guna.UI2.WinForms.Guna2CustomCheckBox checkboxShowPassword;
     }
 }
-
