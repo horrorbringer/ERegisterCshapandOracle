@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\c#\\E_Registration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\forms\\formstudentenrollmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formstudentenrollmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|D:\\c#\\E_Registration\\forms\\formstudentenrollmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formstudentenrollmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|D:\\c#\\E_Registration\\forms\\formstudentenrollmodal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formstudentenrollmodal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\forms\\formstudentmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formstudentmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|D:\\c#\\E_Registration\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|D:\\c#\\E_Registration\\forms\\formprogrammodal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formprogrammodal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|D:\\c#\\E_Registration\\forms\\formprogrammodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formprogrammodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|D:\\c#\\E_Registration\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\forms\\formstudentmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\formstudentmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Forms\\Register.cs",
+              "ToolTip": "D:\\c#\\E_Registration\\Forms\\Register.cs",
+              "RelativeToolTip": "Forms\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T05:42:54.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\c#\\E_Registration\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\c#\\E_Registration\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAADcBAAAAAAAAAAAiwD8BAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T05:37:33.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormStudentModal.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormStudentModal.cs",
+              "RelativeDocumentMoniker": "Forms\\FormStudentModal.cs",
+              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormStudentModal.cs [Design]",
+              "RelativeToolTip": "Forms\\FormStudentModal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T05:17:43.839Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormStudentEnrollModal.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormStudentEnrollModal.cs",
-              "RelativeDocumentMoniker": "Forms\\FormStudentEnrollModal.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormStudentEnrollModal.cs [Design]",
-              "RelativeToolTip": "Forms\\FormStudentEnrollModal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:06:52.458Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormStudentEnrollModal.Designer.cs",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormStudentEnrollModal.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\FormStudentEnrollModal.Designer.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormStudentEnrollModal.Designer.cs",
-              "RelativeToolTip": "Forms\\FormStudentEnrollModal.Designer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:06:09.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormStudentEnrollModal.cs",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormStudentEnrollModal.cs",
-              "RelativeDocumentMoniker": "Forms\\FormStudentEnrollModal.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormStudentEnrollModal.cs",
-              "RelativeToolTip": "Forms\\FormStudentEnrollModal.cs",
-              "ViewState": "AgIAAOwAAAAAAAAAAAAIwP4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:04:03.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormProgramModal.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormProgramModal.cs",
-              "RelativeDocumentMoniker": "Forms\\FormProgramModal.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormProgramModal.cs [Design]",
-              "RelativeToolTip": "Forms\\FormProgramModal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T22:37:10.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormProgramModal.Designer.cs",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormProgramModal.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\FormProgramModal.Designer.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormProgramModal.Designer.cs",
-              "RelativeToolTip": "Forms\\FormProgramModal.Designer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T22:35:37.071Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs",
-              "RelativeToolTip": "Forms\\AdminDashboard.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAIwBcBAAAqAAAAAAAAAA==",
+              "Title": "FormStudentModal.cs",
+              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\FormStudentModal.cs",
+              "RelativeDocumentMoniker": "Forms\\FormStudentModal.cs",
+              "ToolTip": "D:\\c#\\E_Registration\\Forms\\FormStudentModal.cs",
+              "RelativeToolTip": "Forms\\FormStudentModal.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAIwBwBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T21:54:40.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "Forms\\AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T19:38:42.548Z"
+              "WhenOpened": "2025-10-06T05:14:20.864Z",
+              "EditorCaption": ""
             }
           ]
         }

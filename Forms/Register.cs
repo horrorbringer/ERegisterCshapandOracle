@@ -153,7 +153,7 @@ namespace E_Registration.Forms
             txtAddress = new Guna2TextBox
             {
                 Location = new Point(100, 250),
-                Size = new Size(678, 80),
+                Size = new Size(678, 50),
                 Font = new Font("Segoe UI", 10),
                 PlaceholderText = "Enter full address",
                 BorderRadius = 8,
@@ -167,7 +167,7 @@ namespace E_Registration.Forms
             btnSaveRegister = new Guna2Button
             {
                 Location = new Point(440, 600),
-                Size = new Size(200, 50),
+                Size = new Size(200, 40),
                 Text = "REGISTER",
                 Font = new Font("Segoe UI", 12, FontStyle.Bold),
                 BorderRadius = 8,
@@ -181,7 +181,7 @@ namespace E_Registration.Forms
             btnClear = new Guna2Button
             {
                 Location = new Point(660, 600),
-                Size = new Size(200, 50),
+                Size = new Size(200, 40),
                 Text = "CLEAR",
                 Font = new Font("Segoe UI", 12, FontStyle.Bold),
                 BorderRadius = 8,

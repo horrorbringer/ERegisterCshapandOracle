@@ -317,7 +317,7 @@ namespace E_Registration
             // Forgot password link
             Label lblForgot = new Label
             {
-                Text = "Forgot Password?",
+                Text = "Back to register?",
                 Location = new Point(60, 430),
                 Size = new Size(360, 20),
                 ForeColor = accentColor,
@@ -326,7 +326,13 @@ namespace E_Registration
                 Cursor = Cursors.Hand,
                 BackColor = Color.Transparent
             };
-            lblForgot.Click += (s, e) => MessageBox.Show("Password recovery feature coming soon!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            lblForgot.Click += (s, e) =>
+            {
+                var r = new Register();
+                r.FormClosed += (ss, args) => this.Close();
+                r.Show();
+                this.Hide();
+            };
             rightPanel.Controls.Add(lblForgot);
         }
 
