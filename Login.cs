@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using Guna.UI2.WinForms;
 using E_Registration.Forms;
 using E_Registration.Services;
+using System.Runtime.InteropServices;
 
 namespace E_Registration
 {
@@ -31,6 +32,11 @@ namespace E_Registration
         private Guna2Panel leftPanel;
         private Guna2Panel rightPanel;
 
+        [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.dll", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
         public Login()
         {
             InitializeComponent();
@@ -58,6 +64,7 @@ namespace E_Registration
                 BackColor = Color.Transparent,
                 FillColor = Color.Transparent
             };
+            leftPanel.MouseDown += LeftPanel_MouseDown;
 
             // Right Panel
             rightPanel = new Guna2Panel
@@ -70,6 +77,7 @@ namespace E_Registration
             };
             rightPanel.ShadowDecoration.Enabled = true;
             rightPanel.ShadowDecoration.Shadow = new Padding(10);
+            rightPanel.MouseDown += RightPanel_MouseDown;
 
             // Username TextBox
             txtUsername = new Guna2TextBox
@@ -150,11 +158,28 @@ namespace E_Registration
                 BorderRadius = 20,
                 FillColor = Color.Transparent,
                 ForeColor = Color.White,
+                BackColor = Color.Transparent,
                 Font = new Font("Segoe UI", 16, FontStyle.Bold),
                 Cursor = Cursors.Hand
             };
-            btnClose.HoverState.FillColor = ColorTranslator.FromHtml("#FFFFFF30");
+            btnClose.HoverState.FillColor = ColorTranslator.FromHtml("#EF4444");
             btnClose.Click += guna2Button2_Click;
+        }
+
+        private void RightPanel_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void LeftPanel_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void mainContainer_MouseDown(object sender, MouseEventArgs e)
+        {
         }
 
         private void CustomizeLoginForm()
@@ -383,6 +408,20 @@ namespace E_Registration
                 txtPassword.PasswordChar = '\0';
             else
                 txtPassword.PasswordChar = '●';
+        }
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            this.Opacity = 0;
+            Timer fadeIn = new Timer { Interval = 10 };
+            fadeIn.Tick += (s, ev) =>
+            {
+                if (this.Opacity < 1)
+                    this.Opacity += 0.05;
+                else
+                    fadeIn.Stop();
+            };
+            fadeIn.Start();
         }
     }
 }

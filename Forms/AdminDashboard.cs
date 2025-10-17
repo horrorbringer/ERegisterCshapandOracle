@@ -1084,5 +1084,19 @@ namespace E_Registration.Forms
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            this.Opacity = 0;
+            Timer fadeIn = new Timer { Interval = 10 };
+            fadeIn.Tick += (s, ev) =>
+            {
+                if (this.Opacity < 1)
+                    this.Opacity += 0.05;
+                else
+                    fadeIn.Stop();
+            };
+            fadeIn.Start();
+        }
     }
 }

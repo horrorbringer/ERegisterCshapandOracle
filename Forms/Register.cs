@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using Guna.UI2.WinForms;
 using E_Registration.Models;
 using E_Registration.Services;
+using System.Runtime.InteropServices;
 
 namespace E_Registration.Forms
 {
@@ -39,6 +40,12 @@ namespace E_Registration.Forms
         private Guna2Panel formPanel;
         private Label linkLabelAdmin;
 
+        [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.dll", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
         public Register()
         {
             InitializeComponent();
@@ -70,6 +77,7 @@ namespace E_Registration.Forms
                 FillColor = accentColor,
                 BorderRadius = 20
             };
+            headerPanel.MouseDown += headerPanel_MouseDown;
 
             // Form Panel
             formPanel = new Guna2Panel
@@ -204,7 +212,7 @@ namespace E_Registration.Forms
                 Font = new Font("Segoe UI", 16, FontStyle.Bold),
                 Cursor = Cursors.Hand
             };
-            btnClose.HoverState.FillColor = ColorTranslator.FromHtml("#FFFFFF30");
+            btnClose.HoverState.FillColor = ColorTranslator.FromHtml("#EF4444");
             btnClose.Click += (s, e) => Application.Exit();
 
             // Admin Link Label
@@ -275,6 +283,7 @@ namespace E_Registration.Forms
                 TextAlign = ContentAlignment.MiddleLeft
             };
             headerPanel.Controls.Add(lblTitle);
+            lblTitle.MouseDown += lblTitle_MouseDown;
 
             // Subtitle
             Label lblSubtitle = new Label
@@ -289,7 +298,9 @@ namespace E_Registration.Forms
                 TextAlign = ContentAlignment.MiddleLeft
             };
             headerPanel.Controls.Add(lblSubtitle);
+            lblSubtitle.MouseDown += LblSubtitle_MouseDown;
         }
+
 
         private void CreateFormContent()
         {
@@ -485,6 +496,36 @@ namespace E_Registration.Forms
             login.FormClosed += (s, arags) => this.Close();
             login.Show();
             this.Hide();
+        }
+        private void headerPanel_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        private void lblTitle_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        private void LblSubtitle_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            this.Opacity = 0;
+            Timer fadeIn = new Timer { Interval = 10 };
+            fadeIn.Tick += (s, ev) =>
+            {
+                if (this.Opacity < 1)
+                    this.Opacity += 0.05;
+                else
+                    fadeIn.Stop();
+            };
+            fadeIn.Start();
         }
     }
 }
