@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\c#\\E_Registration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|d:\\c#\\e_registration\\data\\programrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A116B1-8A62-4963-8290-9E081EE6EB28}|E_Registration.csproj|solutionrelative:data\\programrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "Forms\\AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:32:41.453Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
-              "ToolTip": "D:\\c#\\E_Registration\\Forms\\AdminDashboard.cs",
-              "RelativeToolTip": "Forms\\AdminDashboard.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAQwE0AAAAeAAAAAAAAAA==",
+              "Title": "ProgramRepository.cs",
+              "DocumentMoniker": "D:\\c#\\E_Registration\\Data\\ProgramRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ProgramRepository.cs",
+              "ToolTip": "D:\\c#\\E_Registration\\Data\\ProgramRepository.cs",
+              "RelativeToolTip": "Data\\ProgramRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:20:59.622Z",
+              "WhenOpened": "2025-10-10T12:06:12.973Z",
               "EditorCaption": ""
             }
           ]
